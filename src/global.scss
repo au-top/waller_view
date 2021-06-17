@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    margin: 3px 0 !important;
+}
+
+.mainContentBox {
+    *,
+    & {
+        transition: all 0.5s;
+    }
+}
+
+.nullBox {
+    flex-grow: 100;
+}
+.nullSizeBox {
+    width: 15px;
+    height: 15px;
+}
+.logo {
+    color: #fff;
+    font-size: 20px;
+    user-select: none;
+}
+.backgroundColroFFF {
+    background-color: #fff;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 0 0 10px #eee;
+    flex-grow: 1;
+    border-radius: 8px;
+}
+
+.allWindow {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.miniWindow {
+    padding: 10%;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.centerX {
+    justify-content: center;
+}
+.centerY {
+    justify-content: center;
+}
+.centerALL {
+    justify-content: center;
+    align-items: center;
+}
