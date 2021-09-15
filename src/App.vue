@@ -171,7 +171,7 @@
 
 <script lang="ts">
 
-import { defineComponent, reactive, ref, Ref } from 'vue'
+import { defineComponent, reactive, ref, Ref } from 'vue';
 import { baseConfig } from './api/base';
 import { getShowErrorStruct, getStatistics, Statistics, ErrorStruct } from "./api/showErrors";
 import ErrorInfoViewElem from "./widget/ErrorInfoViewElem.vue";
@@ -219,7 +219,7 @@ const reGetAllData = async () => {
     pageData.statistics = await getStatistics();
 };
 
-let autoUpdateTimer: number | null = null;
+let autoUpdateTimer: any = null;
 
 export default defineComponent({
     created: function() {
